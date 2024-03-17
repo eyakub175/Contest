@@ -1,0 +1,25 @@
+/*
+    Time Duration: 2 minutes.
+    Problem 1:Given two number A and B. Find the maximum between A and B.
+*/
+
+
+#include<stdio.h>
+int main()
+{
+    int x, y;
+    scanf("%d %d", &x, &y);
+    if(x>y)
+    {
+       printf("%d",x);
+
+    }
+    else
+    {
+        printf("%d",y);
+
+    }
+
+    return 0;
+
+}
